@@ -38,5 +38,3 @@ git push heroku master
 ```
 
 Currently `or-tools` fails to install properly, causing the deploy to fail.
-
-Currently `or-tools` gem fails to install, causing the deploy to be rejected.
