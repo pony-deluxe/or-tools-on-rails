@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/ankane/or-tools.git
+  revision: 85bf51e697f2a6b8b1b306b5de3c0da872824642
+  branch: vendor
+  specs:
+    or-tools (0.1.5)
+      rice (>= 2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,8 +110,6 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    or-tools (0.1.5)
-      rice (>= 2.2)
     pg (1.2.3)
     public_suffix (4.0.5)
     puma (4.3.5)
@@ -208,7 +214,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
-  or-tools (~> 0.1.5)
+  or-tools!
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.2)
